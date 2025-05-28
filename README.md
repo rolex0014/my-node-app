@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Code') {
             steps {
-                git 'https://github.com/rolex0014/staticsite-docker.git'
+                git 'https://github.com/rolex0014/my-node-app.git'
             }
         }
         stage('Build') {
