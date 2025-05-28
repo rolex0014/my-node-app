@@ -4,6 +4,8 @@ Install git.
 Get node.js sample code from google or somewhereelse.
 In Jenkins,create a job with job name and select pipeline.
 Go to configure and write a declarative pipeline to get code,build,deploy.
+
+
 pipeline {
     agent any
 
